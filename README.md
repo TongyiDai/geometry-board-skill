@@ -2,6 +2,8 @@
 
 把复杂内容压缩成一张“一图一意”、克制少字、可插入飞书文档的几何视觉画板。
 
+[English introduction](#english-introduction)
+
 这是一个面向 Codex 的 Skill。它负责从自然语言、飞书文档段落或已有图示中提炼核心判断，选择合适的几何构图，生成结构化 Scene JSON，再渲染为 SVG/PNG；当用户要求插入飞书云文档时，还会把每张画板放到对应主题段落附近，而不是统一堆在文档末尾。
 
 ## 名字
@@ -17,6 +19,32 @@
 > 这张图要让读者一眼理解什么？
 
 然后只保留一个核心判断，用节点、线、层级、留白和单一强调色表达关系，把完整解释留给正文。
+
+## 它的价值
+
+### 1. 把复杂信息变成可讨论的对象
+
+长文档适合完整记录，但不一定适合快速理解。Geometry Board 把流程、层级、角色、依赖、冲突和判断标准转成一张结构清楚的图，让团队可以围绕同一个视觉对象讨论“谁影响谁、先做什么、哪里需要决策”。
+
+### 2. 把“好看”建立在信息关系上
+
+它不是给文字套一个装饰模板，也不是生成一张无法编辑和解释的海报。先抽取关系，再决定构图；圆、线、层、轴和留白各自承担稳定的语义，视觉形式服务于内容判断。
+
+### 3. 让图和正文各司其职
+
+画板负责让读者快速看到结构，正文负责承载背景、证据和细节。少字不是删掉信息，而是把信息放回最合适的载体，避免一张图同时承担标题、说明、例子和结论。
+
+### 4. 让画板真正进入文档阅读流
+
+当内容来自飞书云文档时，画板会按主题分散到对应段落，而不是生成完 4 张图后统一堆在文档末尾。读者在读到一个主题时，就能在上下文中看到对应的关系图。
+
+### 5. 让结果可复用、可校验、可迭代
+
+中间使用 Scene JSON 表达意图、节点和关系，输出使用确定性 SVG/PNG。这样既能检查结构约束，也能在用户说“少一点字”“换成流程图”“保留这个风格”时进行局部修改，而不必从零开始重画。
+
+### 6. 适合需要克制表达的业务场景
+
+它尤其适合 OKR 对齐、项目复盘、客户汇报、KDM 识别、流程梳理、产品架构、组织协同和决策讨论等场景：信息复杂，但最终需要让同事快速看懂并继续行动。
 
 ## 核心工作流
 
@@ -101,6 +129,44 @@
 #### 汇报内容搭建：先骨架，再填充
 
 <img src="examples/kdm/report-pyramid.svg" alt="汇报内容搭建" width="900" />
+
+## English introduction
+
+### What it is
+
+Geometry Board is a Codex Skill for turning dense business content into restrained, low-text geometric diagrams that can be reviewed, exported, and embedded into Feishu documents.
+
+It works from natural-language prompts, selected document sections, or existing diagrams. The Skill extracts the core message, identifies the underlying relationships, selects a suitable composition, generates a structured Scene JSON, and renders a deterministic SVG or PNG.
+
+### Why it matters
+
+Business documents often mix timelines, ownership, dependencies, decision rights, inputs, outputs, and evaluation criteria in the same page. A generic diagram generator may produce something visually attractive but semantically loose, text-heavy, or disconnected from the document context.
+
+Geometry Board is designed around five practical outcomes:
+
+1. **Faster understanding.** One board communicates one core judgment at a glance.
+2. **Semantic fidelity.** Shapes, lines, layers, axes, and whitespace represent meaningful relationships instead of decoration.
+3. **Better reading flow.** Boards are placed beside the section they explain, so the visual and written context stay together.
+4. **Reusable output.** Scene JSON and deterministic SVG make revisions, validation, and style consistency easier.
+5. **Actionable discussion.** The board gives teams a shared object for discussing priorities, ownership, risks, and next steps.
+
+### What makes it different
+
+Geometry Board treats visual work as information design rather than image generation:
+
+- It starts with a single core message, not a collection of unstructured labels.
+- It uses a small, stable visual vocabulary and one accent color.
+- It removes redundant explanations before shrinking text or filling empty space.
+- It preserves existing boards unless the user explicitly asks for a rearrangement.
+- It verifies the document structure and the placement context after writing to Feishu.
+
+### Feishu document behavior
+
+When several boards are requested for a Feishu document, the Skill first reads the document outline and nearby paragraphs. It then creates a mapping of `board topic → section → insertion anchor`, places each board after the paragraph that introduces its topic, and verifies the text before and after every inserted board. Boards are clustered only when they belong to the same topic or when the user explicitly requests a gallery-style section.
+
+### Example sources
+
+The examples in this repository come from two real document-oriented use cases: OKR alignment and review, and People stakeholder / KDM reporting. They demonstrate how the same visual system can express different structures without turning the board into a full-text slide.
 
 ## 目录结构
 
