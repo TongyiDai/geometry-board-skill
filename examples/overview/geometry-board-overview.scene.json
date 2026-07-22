@@ -1,0 +1,33 @@
+{
+  "canvas": {
+    "width": 1200,
+    "height": 675,
+    "ratio": "16:9",
+    "background": "#FFFFFF",
+    "grid": 8
+  },
+  "intent": {
+    "core_message": "复杂内容经结构化视觉化后，变成可理解、可讨论、可行动的关系图",
+    "composition": "input-process-output",
+    "focus_node": "board"
+  },
+  "style": {
+    "theme": "geometry-minimal",
+    "accent_color": "#2F6BFF",
+    "line_weight": 1,
+    "corner_radius": 0
+  },
+  "nodes": [
+    {"id": "content", "type": "frame", "label": "复杂内容", "importance": 3},
+    {"id": "board", "type": "rect", "label": "几何画板", "importance": 5},
+    {"id": "understand", "type": "circle", "label": "看懂", "importance": 4},
+    {"id": "align", "type": "circle", "label": "对齐", "importance": 4},
+    {"id": "act", "type": "circle", "label": "行动", "importance": 4}
+  ],
+  "edges": [
+    {"from": "content", "to": "board", "relation": "提炼"},
+    {"from": "board", "to": "understand", "relation": "表达"},
+    {"from": "board", "to": "align", "relation": "共识"},
+    {"from": "board", "to": "act", "relation": "行动"}
+  ]
+}

@@ -6,6 +6,10 @@
 
 这是一个面向 Codex 的 Skill。它负责从自然语言、飞书文档段落或已有图示中提炼核心判断，选择合适的几何构图，生成结构化 Scene JSON，再渲染为 SVG/PNG；当用户要求插入飞书云文档时，还会把每张画板放到对应主题段落附近，而不是统一堆在文档末尾。
 
+## 一张图看懂 Geometry Board
+
+<img src="examples/overview/geometry-board-overview.svg" alt="Geometry Board 总览：从复杂内容到可行动结果" width="900" />
+
 ## 名字
 
 - 英文名：`Geometry Board`
@@ -179,6 +183,7 @@ geometry-board/
 │   └── scene-json-schema.md          # Scene JSON 协议
 ├── scripts/validate_scene.py         # Scene JSON 结构校验
 └── examples/                         # 实际画板 SVG 示例
+    ├── overview/                     # Skill 总览画板与 Scene JSON
     ├── okr/
     └── kdm/
 ```

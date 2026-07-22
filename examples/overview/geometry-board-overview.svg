@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,4 L0,8" fill="none" stroke="#222222" stroke-width="1"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <text x="88" y="66" fill="#111111" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="32" font-weight="600">Geometry Board：把复杂内容变成可理解的视觉结构</text>
+  <text x="88" y="98" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">从长文档到关系图，再回到正确的段落</text>
+  <line x1="88" y1="126" x2="1112" y2="126" stroke="#E8E8E8" stroke-width="1"/>
+
+  <text x="112" y="198" fill="#999999" font-family="Inter, Arial, sans-serif" font-size="12" letter-spacing="2">INPUT</text>
+  <rect x="96" y="220" width="256" height="176" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="120" y="260" fill="#111111" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="22" font-weight="600">复杂内容</text>
+  <line x1="120" y1="282" x2="328" y2="282" stroke="#E8E8E8" stroke-width="1"/>
+  <circle cx="128" cy="316" r="4" fill="#999999"/>
+  <text x="146" y="322" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">长文档</text>
+  <circle cx="128" cy="352" r="4" fill="#999999"/>
+  <text x="146" y="358" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">多关系</text>
+  <circle cx="128" cy="388" r="4" fill="#999999"/>
+  <text x="146" y="394" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">待决策</text>
+
+  <line x1="352" y1="308" x2="448" y2="308" stroke="#222222" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <text x="370" y="292" fill="#999999" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="12">提炼关系</text>
+
+  <text x="512" y="178" fill="#999999" font-family="Inter, Arial, sans-serif" font-size="12" letter-spacing="2">PROCESS</text>
+  <rect x="448" y="200" width="304" height="216" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="1.5"/>
+  <text x="480" y="248" fill="#111111" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="24" font-weight="600">几何画板</text>
+  <text x="480" y="276" fill="#666666" font-family="Inter, Arial, sans-serif" font-size="13">GEOMETRY BOARD</text>
+  <line x1="480" y1="300" x2="720" y2="300" stroke="#E8E8E8" stroke-width="1"/>
+  <circle cx="492" cy="330" r="5" fill="#2F6BFF"/>
+  <text x="512" y="336" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">提炼判断</text>
+  <circle cx="492" cy="362" r="5" fill="#2F6BFF"/>
+  <text x="512" y="368" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">选择构图</text>
+  <circle cx="492" cy="394" r="5" fill="#2F6BFF"/>
+  <text x="512" y="400" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">确定输出</text>
+
+  <line x1="752" y1="308" x2="848" y2="308" stroke="#222222" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <text x="770" y="292" fill="#999999" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="12">关系可见</text>
+
+  <text x="880" y="198" fill="#999999" font-family="Inter, Arial, sans-serif" font-size="12" letter-spacing="2">OUTPUT</text>
+  <rect x="848" y="220" width="256" height="176" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="872" y="260" fill="#111111" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="22" font-weight="600">可行动结果</text>
+  <line x1="872" y1="282" x2="1080" y2="282" stroke="#E8E8E8" stroke-width="1"/>
+  <circle cx="880" cy="316" r="4" fill="#2F6BFF"/>
+  <text x="898" y="322" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">看懂</text>
+  <circle cx="880" cy="352" r="4" fill="#2F6BFF"/>
+  <text x="898" y="358" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">对齐</text>
+  <circle cx="880" cy="388" r="4" fill="#2F6BFF"/>
+  <text x="898" y="394" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">行动</text>
+
+  <line x1="88" y1="506" x2="1112" y2="506" stroke="#E8E8E8" stroke-width="1"/>
+  <circle cx="112" cy="554" r="5" fill="#2F6BFF"/>
+  <text x="128" y="560" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">少字</text>
+  <circle cx="360" cy="554" r="5" fill="#2F6BFF"/>
+  <text x="376" y="560" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">准关系</text>
+  <circle cx="632" cy="554" r="5" fill="#2F6BFF"/>
+  <text x="648" y="560" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">放对位置</text>
+  <text x="896" y="560" fill="#999999" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="14">画板负责关系｜正文负责细节</text>
+</svg>
