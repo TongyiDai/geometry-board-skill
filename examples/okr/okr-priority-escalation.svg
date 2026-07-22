@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <text x="80" y="62" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="30" font-weight="500">跨部门优先级冲突：对齐的是价值</text>
+  <text x="80" y="94" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15">标准不同 → 上浮判断 → 共同优先级</text>
+  <line x1="80" y1="122" x2="1120" y2="122" stroke="#E8E8E8" stroke-width="1"/>
+  <text x="96" y="180" fill="#2F6BFF" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2">PRIORITY CONFLICT</text>
+
+  <circle cx="235" cy="350" r="70" fill="#F5F5F5" stroke="#222222" stroke-width="1"/>
+  <text x="235" y="346" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="19" font-weight="500">团队 A</text>
+  <text x="235" y="374" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">标准 A</text>
+  <circle cx="235" cy="500" r="70" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="235" y="496" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="19" font-weight="500">团队 B</text>
+  <text x="235" y="524" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">标准 B</text>
+
+  <polyline points="315,350 400,350 462,425" fill="none" stroke="#B8B8B8" stroke-width="1.5"/>
+  <polyline points="315,500 400,500 462,425" fill="none" stroke="#B8B8B8" stroke-width="1.5"/>
+  <polyline points="450,417 462,425 450,433" fill="none" stroke="#B8B8B8" stroke-width="1.5"/>
+  <rect x="462" y="350" width="278" height="150" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="1.5"/>
+  <rect x="462" y="350" width="8" height="150" fill="#2F6BFF"/>
+  <text x="500" y="394" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="21" font-weight="500">上浮判断</text>
+  <text x="500" y="428" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="14">目标价值</text>
+  <text x="500" y="454" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="14">公司战略</text>
+  <text x="500" y="480" fill="#2F6BFF" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="14" font-weight="500">重新排优先级</text>
+  <line x1="740" y1="425" x2="920" y2="425" stroke="#222222" stroke-width="1.5"/>
+  <polyline points="908,417 920,425 908,433" fill="none" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="1000" cy="425" r="70" fill="#F5F5F5" stroke="#222222" stroke-width="1"/>
+  <text x="1000" y="421" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="19" font-weight="500">共同优先级</text>
+  <text x="1000" y="449" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">合作清晰</text>
+  <line x1="80" y1="592" x2="1120" y2="592" stroke="#E8E8E8" stroke-width="1"/>
+</svg>

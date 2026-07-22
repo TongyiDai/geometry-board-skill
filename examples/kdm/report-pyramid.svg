@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <text x="80" y="62" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="30" font-weight="500">汇报内容搭建：先骨架，再填充</text>
+  <text x="80" y="94" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15">从核心到细节，层层展开</text>
+  <line x1="80" y1="122" x2="1120" y2="122" stroke="#E8E8E8" stroke-width="1"/>
+  <text x="96" y="196" fill="#2F6BFF" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2">BUILD THE REPORT</text>
+  <text x="96" y="230" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="14">准备顺序</text>
+  <rect x="420" y="208" width="360" height="58" fill="#2F6BFF"/>
+  <text x="600" y="245" text-anchor="middle" fill="#FFFFFF" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">对象与目标</text>
+  <rect x="360" y="282" width="480" height="58" fill="#F5F5F5" stroke="#222222" stroke-width="1"/>
+  <text x="600" y="319" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">一级框架</text>
+  <rect x="300" y="356" width="600" height="58" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="600" y="393" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">重点内容</text>
+  <rect x="240" y="430" width="720" height="58" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="600" y="467" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">核心句</text>
+  <rect x="180" y="504" width="840" height="58" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="600" y="541" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">支撑段落</text>
+</svg>

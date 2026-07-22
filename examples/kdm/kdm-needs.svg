@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <text x="80" y="62" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="30" font-weight="500">KDM 诉求：先听见，再形成画像</text>
+  <text x="80" y="94" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15">直接来源 + 间接来源 + 其他沉淀</text>
+  <line x1="80" y1="122" x2="1120" y2="122" stroke="#E8E8E8" stroke-width="1"/>
+  <text x="110" y="206" fill="#2F6BFF" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2">INPUTS</text>
+  <text x="570" y="206" fill="#2F6BFF" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2">SYNTHESIS</text>
+  <text x="910" y="206" fill="#2F6BFF" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2">OUTPUTS</text>
+
+  <rect x="110" y="250" width="220" height="64" fill="#F5F5F5" stroke="#222222" stroke-width="1"/>
+  <text x="220" y="288" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">KDM 本人</text>
+  <rect x="110" y="350" width="220" height="64" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="220" y="388" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">客户对接人</text>
+  <rect x="110" y="450" width="220" height="64" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="220" y="488" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">销售 / 售前</text>
+
+  <polyline points="330,282 430,282 480,382" fill="none" stroke="#B8B8B8" stroke-width="1.5"/>
+  <polyline points="330,382 480,382" fill="none" stroke="#B8B8B8" stroke-width="1.5"/>
+  <polyline points="330,482 430,482 480,382" fill="none" stroke="#B8B8B8" stroke-width="1.5"/>
+  <polyline points="468,374 480,382 468,390" fill="none" stroke="#B8B8B8" stroke-width="1.5"/>
+  <rect x="480" y="320" width="250" height="124" fill="#2F6BFF"/>
+  <text x="605" y="366" text-anchor="middle" fill="#FFFFFF" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="22" font-weight="500">诉求画像</text>
+  <text x="605" y="398" text-anchor="middle" fill="#FFFFFF" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="14">谁　/　为何　/　优先什么</text>
+  <line x1="730" y1="382" x2="880" y2="382" stroke="#222222" stroke-width="1.5"/>
+  <polyline points="868,374 880,382 868,390" fill="none" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="980" cy="270" r="48" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="2"/>
+  <text x="980" y="276" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="16" font-weight="500">项目目标</text>
+  <rect x="928" y="330" width="104" height="104" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="980" y="388" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="16" font-weight="500">业务痛点</text>
+  <circle cx="980" cy="494" r="48" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="980" y="500" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="16" font-weight="500">近期重点</text>
+</svg>

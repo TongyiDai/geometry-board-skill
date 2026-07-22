@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <text x="80" y="62" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="30" font-weight="500">KDM：关键角色不是名单，而是决策权</text>
+  <text x="80" y="94" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15">先找对人，再谈对的事</text>
+  <line x1="80" y1="122" x2="1120" y2="122" stroke="#E8E8E8" stroke-width="1"/>
+  <line x1="600" y1="360" x2="300" y2="250" stroke="#B8B8B8" stroke-width="1"/>
+  <line x1="600" y1="360" x2="900" y2="250" stroke="#B8B8B8" stroke-width="1"/>
+  <line x1="600" y1="360" x2="300" y2="480" stroke="#B8B8B8" stroke-width="1"/>
+  <line x1="600" y1="360" x2="900" y2="480" stroke="#B8B8B8" stroke-width="1"/>
+  <circle cx="600" cy="360" r="86" fill="#2F6BFF"/>
+  <text x="600" y="350" text-anchor="middle" fill="#FFFFFF" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="26" font-weight="500">KDM</text>
+  <text x="600" y="380" text-anchor="middle" fill="#FFFFFF" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15">关键决策</text>
+  <circle cx="300" cy="250" r="64" fill="#F5F5F5" stroke="#222222" stroke-width="1"/>
+  <text x="300" y="244" text-anchor="middle" fill="#111111" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="19" font-weight="500">CEO</text>
+  <text x="300" y="270" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">战略</text>
+  <circle cx="900" cy="250" r="64" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="900" y="244" text-anchor="middle" fill="#111111" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="18" font-weight="500">HRVP / CHO</text>
+  <text x="900" y="270" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">组织</text>
+  <circle cx="300" cy="480" r="64" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="300" y="474" text-anchor="middle" fill="#111111" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="19" font-weight="500">HRD</text>
+  <text x="300" y="500" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">人才</text>
+  <circle cx="900" cy="480" r="64" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="900" y="474" text-anchor="middle" fill="#111111" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="19" font-weight="500">CIO / CTO</text>
+  <text x="900" y="500" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">数字化</text>
+</svg>

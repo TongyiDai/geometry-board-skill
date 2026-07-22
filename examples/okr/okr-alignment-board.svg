@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <text x="80" y="62" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="30" font-weight="500">OKR 对齐会：把目标拉齐为方向</text>
+  <text x="80" y="94" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15">准备 → 讨论 → 完善</text>
+  <line x1="80" y1="122" x2="1120" y2="122" stroke="#E8E8E8" stroke-width="1"/>
+
+  <text x="96" y="176" fill="#2F6BFF" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2">01 BEFORE</text>
+  <text x="96" y="208" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="22" font-weight="500">会前准备</text>
+  <text x="446" y="176" fill="#2F6BFF" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2">02 DURING</text>
+  <text x="446" y="208" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="22" font-weight="500">会中讨论</text>
+  <text x="816" y="176" fill="#2F6BFF" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2">03 AFTER</text>
+  <text x="816" y="208" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="22" font-weight="500">会后完善</text>
+  <line x1="400" y1="150" x2="400" y2="410" stroke="#E8E8E8" stroke-width="1"/>
+  <line x1="770" y1="150" x2="770" y2="410" stroke="#E8E8E8" stroke-width="1"/>
+
+  <line x1="118" y1="318" x2="1082" y2="318" stroke="#222222" stroke-width="1.5"/>
+  <polyline points="1070,310 1082,318 1070,326" fill="none" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="170" cy="318" r="12" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="2"/>
+  <circle cx="325" cy="318" r="12" fill="#2F6BFF"/>
+  <circle cx="470" cy="318" r="12" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="2"/>
+  <circle cx="625" cy="318" r="12" fill="#2F6BFF"/>
+  <circle cx="780" cy="318" r="12" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="2"/>
+  <circle cx="940" cy="318" r="12" fill="#2F6BFF"/>
+  <line x1="170" y1="306" x2="170" y2="258" stroke="#B8B8B8" stroke-width="1"/>
+  <line x1="325" y1="330" x2="325" y2="378" stroke="#B8B8B8" stroke-width="1"/>
+  <line x1="470" y1="306" x2="470" y2="258" stroke="#B8B8B8" stroke-width="1"/>
+  <line x1="625" y1="330" x2="625" y2="378" stroke="#B8B8B8" stroke-width="1"/>
+  <line x1="780" y1="306" x2="780" y2="258" stroke="#B8B8B8" stroke-width="1"/>
+  <line x1="940" y1="330" x2="940" y2="378" stroke="#B8B8B8" stroke-width="1"/>
+
+  <text x="170" y="250" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15" font-weight="500">建日程</text>
+  <text x="170" y="274" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">发通知</text>
+  <text x="325" y="404" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15" font-weight="500">完成初稿</text>
+  <text x="325" y="428" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">评论与对齐</text>
+  <text x="470" y="250" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15" font-weight="500">先团队</text>
+  <text x="470" y="274" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">讲清方向</text>
+  <text x="625" y="404" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15" font-weight="500">再个人</text>
+  <text x="625" y="428" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">回答评论</text>
+  <text x="780" y="250" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15" font-weight="500">完善关系</text>
+  <text x="780" y="274" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">内容、@、对齐</text>
+  <text x="940" y="404" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15" font-weight="500">形成共识</text>
+  <text x="940" y="428" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">闭环</text>
+
+  <line x1="80" y1="490" x2="1120" y2="490" stroke="#E8E8E8" stroke-width="1"/>
+  <text x="80" y="546" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">方向</text>
+  <line x1="140" y1="540" x2="460" y2="540" stroke="#B8B8B8" stroke-width="1"/>
+  <polyline points="448,533 460,540 448,547" fill="none" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="500" y="546" fill="#2F6BFF" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">讨论校准</text>
+  <line x1="610" y1="540" x2="930" y2="540" stroke="#B8B8B8" stroke-width="1"/>
+  <polyline points="918,533 930,540 918,547" fill="none" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="970" y="546" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">反馈闭环</text>
+</svg>

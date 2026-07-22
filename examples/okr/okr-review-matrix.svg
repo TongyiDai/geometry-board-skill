@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <text x="80" y="62" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="30" font-weight="500">OKR 评审的四个问题</text>
+  <text x="80" y="94" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15">写得清楚，业务聚焦，能够承接，协作明确</text>
+  <line x1="80" y1="122" x2="1120" y2="122" stroke="#E8E8E8" stroke-width="1"/>
+  <text x="600" y="166" text-anchor="middle" fill="#999999" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">表达 → 协同</text>
+  <line x1="360" y1="186" x2="840" y2="186" stroke="#B8B8B8" stroke-width="1"/>
+  <polyline points="828,179 840,186 828,193" fill="none" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="286" y="356" text-anchor="middle" fill="#999999" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13" transform="rotate(-90 286 356)">理解 → 执行</text>
+  <line x1="306" y1="550" x2="306" y2="214" stroke="#B8B8B8" stroke-width="1"/>
+  <polyline points="299,226 306,214 313,226" fill="none" stroke="#B8B8B8" stroke-width="1"/>
+  <line x1="360" y1="356" x2="840" y2="356" stroke="#E8E8E8" stroke-width="1"/>
+  <line x1="600" y1="214" x2="600" y2="550" stroke="#E8E8E8" stroke-width="1"/>
+
+  <circle cx="450" cy="276" r="34" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="2"/>
+  <text x="450" y="282" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15" font-weight="500">写法规范</text>
+  <circle cx="750" cy="276" r="34" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="2"/>
+  <text x="750" y="282" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15" font-weight="500">业务重点</text>
+  <circle cx="450" cy="436" r="34" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="2"/>
+  <text x="450" y="442" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15" font-weight="500">KR 支撑</text>
+  <circle cx="750" cy="436" r="34" fill="#2F6BFF"/>
+  <text x="750" y="442" text-anchor="middle" fill="#FFFFFF" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15" font-weight="500">协作明确</text>
+  <line x1="80" y1="592" x2="1120" y2="592" stroke="#E8E8E8" stroke-width="1"/>
+</svg>

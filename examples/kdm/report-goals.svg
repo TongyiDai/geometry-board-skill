@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <text x="80" y="62" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="30" font-weight="500">汇报目标：先让 KDM 满意</text>
+  <text x="80" y="94" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15">回应诉求 → 阶段成果 → 业务结果</text>
+  <line x1="80" y1="122" x2="1120" y2="122" stroke="#E8E8E8" stroke-width="1"/>
+  <line x1="130" y1="350" x2="650" y2="350" stroke="#222222" stroke-width="1.5"/>
+  <polyline points="638,342 650,350 638,358" fill="none" stroke="#222222" stroke-width="1.5"/>
+  <circle cx="190" cy="350" r="62" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="190" y="344" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">回应诉求</text>
+  <text x="190" y="370" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">听见</text>
+  <circle cx="390" cy="350" r="62" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="390" y="344" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">阶段成果</text>
+  <text x="390" y="370" text-anchor="middle" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">证明</text>
+  <circle cx="650" cy="350" r="86" fill="#2F6BFF"/>
+  <text x="650" y="344" text-anchor="middle" fill="#FFFFFF" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="22" font-weight="500">KDM 满意</text>
+  <text x="650" y="374" text-anchor="middle" fill="#FFFFFF" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="14">价值感知</text>
+  <line x1="720" y1="350" x2="830" y2="240" stroke="#2F6BFF" stroke-width="1.5"/>
+  <polyline points="818,241 830,240 829,252" fill="none" stroke="#2F6BFF" stroke-width="1.5"/>
+  <line x1="720" y1="350" x2="830" y2="460" stroke="#B8B8B8" stroke-width="1.5"/>
+  <polyline points="818,459 830,460 829,448" fill="none" stroke="#B8B8B8" stroke-width="1.5"/>
+  <circle cx="950" cy="220" r="68" fill="#F5F5F5" stroke="#222222" stroke-width="1"/>
+  <text x="950" y="214" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">续约续费</text>
+  <text x="950" y="240" text-anchor="middle" fill="#666666" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="14">80%</text>
+  <circle cx="950" cy="480" r="68" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="950" y="474" text-anchor="middle" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="18" font-weight="500">交叉销售</text>
+  <text x="950" y="500" text-anchor="middle" fill="#666666" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="14">20%</text>
+</svg>

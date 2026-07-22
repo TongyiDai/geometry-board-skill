@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <text x="80" y="62" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="30" font-weight="500">OKR 对齐：先管理层，再部门层，最后团队层</text>
+  <text x="80" y="94" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15">方向逐层承接，反馈向上汇聚</text>
+  <line x1="80" y1="122" x2="1120" y2="122" stroke="#E8E8E8" stroke-width="1"/>
+  <text x="96" y="176" fill="#2F6BFF" font-family="Inter, PingFang SC, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2">ALIGNMENT LAYERS</text>
+  <text x="96" y="208" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="14">建议顺序</text>
+  <line x1="115" y1="258" x2="115" y2="512" stroke="#B8B8B8" stroke-width="1"/>
+  <polyline points="108,270 115,258 122,270" fill="none" stroke="#B8B8B8" stroke-width="1"/>
+
+  <rect x="190" y="238" width="700" height="88" fill="#F5F5F5" stroke="#222222" stroke-width="1"/>
+  <rect x="190" y="238" width="8" height="88" fill="#2F6BFF"/>
+  <text x="226" y="274" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="21" font-weight="500">管理层</text>
+  <text x="226" y="302" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="14">战略与优先级</text>
+  <text x="846" y="284" text-anchor="end" fill="#999999" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">定方向</text>
+  <rect x="250" y="350" width="640" height="88" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <rect x="250" y="350" width="8" height="88" fill="#2F6BFF"/>
+  <text x="286" y="386" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="21" font-weight="500">部门层</text>
+  <text x="286" y="414" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="14">重点与资源</text>
+  <text x="846" y="396" text-anchor="end" fill="#999999" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="13">做承接</text>
+  <rect x="310" y="462" width="580" height="88" fill="#FFFFFF" stroke="#B8B8B8" stroke-width="1"/>
+  <rect x="310" y="462" width="8" height="88" fill="#2F6BFF"/>
+  <text x="346" y="498" fill="#111111" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="21" font-weight="500">团队层</text>
+  <text x="346" y="526" fill="#666666" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="14">团队与个人</text>
+  <polyline points="946,500 1000,500 1000,270 946,270" fill="none" stroke="#2F6BFF" stroke-width="1.5"/>
+  <polyline points="954,262 946,270 954,278" fill="none" stroke="#2F6BFF" stroke-width="1.5"/>
+  <text x="1030" y="360" text-anchor="middle" fill="#2F6BFF" font-family="PingFang SC, Noto Sans SC, Arial, sans-serif" font-size="15" font-weight="500" transform="rotate(90 1030 360)">反馈向上</text>
+</svg>

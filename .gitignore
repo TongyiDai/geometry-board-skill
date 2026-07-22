@@ -1,0 +1,13 @@
+# Local previews and Feishu insertion payloads
+*-preview.png
+preview-*.png
+*-remote.svg
+*.xml
+
+# Local source boards; published copies live under examples/
+/*.svg
+
+# Local/tool caches
+.DS_Store
+__pycache__/
+*.pyc
