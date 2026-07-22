@@ -7,7 +7,7 @@
     "grid": 8
   },
   "intent": {
-    "core_message": "复杂内容经结构化视觉化后，变成可理解、可讨论、可行动的关系图",
+    "core_message": "先说清楚，再画关系，放回原文，帮助大家行动",
     "composition": "input-process-output",
     "focus_node": "board"
   },
@@ -25,7 +25,7 @@
     {"id": "act", "type": "circle", "label": "行动", "importance": 4}
   ],
   "edges": [
-    {"from": "content", "to": "board", "relation": "提炼"},
+    {"from": "content", "to": "board", "relation": "先说清楚"},
     {"from": "board", "to": "understand", "relation": "表达"},
     {"from": "board", "to": "align", "relation": "共识"},
     {"from": "board", "to": "act", "relation": "行动"}

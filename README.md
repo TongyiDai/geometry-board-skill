@@ -1,6 +1,6 @@
 # Geometry Board｜几何视觉画板
 
-把复杂内容压缩成一张“一图一意”、克制少字、可插入飞书文档的几何视觉画板。
+把复杂内容压缩成一张“一图一意”、直白易懂、简洁克制、可插入飞书文档的几何视觉画板。
 
 [English introduction](#english-introduction)
 
@@ -8,7 +8,7 @@
 
 ## 一张图看懂 Geometry Board
 
-<img src="examples/overview/geometry-board-overview.svg" alt="Geometry Board 总览：从复杂内容到可行动结果" width="900" />
+<img src="examples/overview/geometry-board-overview.svg" alt="Geometry Board 总览：把内容画成看得懂的图" width="900" />
 
 ## 名字
 
@@ -38,15 +38,19 @@
 
 画板负责让读者快速看到结构，正文负责承载背景、证据和细节。少字不是删掉信息，而是把信息放回最合适的载体，避免一张图同时承担标题、说明、例子和结论。
 
-### 4. 让画板真正进入文档阅读流
+### 4. 让陌生读者也能马上看懂
+
+画板中的文字优先使用日常业务语言和具体动作。标题先说结论，节点尽量回答“谁做什么、先做什么、结果是什么”，少用必须依赖术语表才能理解的抽象词。直白不是随意口语化，而是在保持专业和准确的前提下，让信息少绕一步。
+
+### 5. 让画板真正进入文档阅读流
 
 当内容来自飞书云文档时，画板会按主题分散到对应段落，而不是生成完 4 张图后统一堆在文档末尾。读者在读到一个主题时，就能在上下文中看到对应的关系图。
 
-### 5. 让结果可复用、可校验、可迭代
+### 6. 让结果可复用、可校验、可迭代
 
 中间使用 Scene JSON 表达意图、节点和关系，输出使用确定性 SVG/PNG。这样既能检查结构约束，也能在用户说“少一点字”“换成流程图”“保留这个风格”时进行局部修改，而不必从零开始重画。
 
-### 6. 适合需要克制表达的业务场景
+### 7. 适合需要克制表达的业务场景
 
 它尤其适合 OKR 对齐、项目复盘、客户汇报、KDM 识别、流程梳理、产品架构、组织协同和决策讨论等场景：信息复杂，但最终需要让同事快速看懂并继续行动。
 
@@ -77,6 +81,7 @@
 - 白色背景，黑白灰为主，只使用一个强调色
 - 充足留白，优先保证关系清晰和缩小后的可读性
 - 默认“少字模式”：标题 + 关键词节点 + 必要关系词
+- 文字优先直白易懂，先写具体动作和结果，再考虑抽象概念
 - 中文可见文字默认不超过 80 字，复杂结构硬上限 120 字
 - 单个节点尽量控制在 2–8 个汉字
 - 不使用蓝紫渐变、玻璃拟态、大面积阴影、卡通图标和模板化 SmartArt
@@ -138,7 +143,7 @@
 
 ### What it is
 
-Geometry Board is a Codex Skill for turning dense business content into restrained, low-text geometric diagrams that can be reviewed, exported, and embedded into Feishu documents.
+Geometry Board is a Codex Skill for turning dense business content into clear, plain-language, restrained, low-text geometric diagrams that can be reviewed, exported, and embedded into Feishu documents.
 
 It works from natural-language prompts, selected document sections, or existing diagrams. The Skill extracts the core message, identifies the underlying relationships, selects a suitable composition, generates a structured Scene JSON, and renders a deterministic SVG or PNG.
 
@@ -146,19 +151,21 @@ It works from natural-language prompts, selected document sections, or existing 
 
 Business documents often mix timelines, ownership, dependencies, decision rights, inputs, outputs, and evaluation criteria in the same page. A generic diagram generator may produce something visually attractive but semantically loose, text-heavy, or disconnected from the document context.
 
-Geometry Board is designed around five practical outcomes:
+Geometry Board is designed around six practical outcomes:
 
 1. **Faster understanding.** One board communicates one core judgment at a glance.
-2. **Semantic fidelity.** Shapes, lines, layers, axes, and whitespace represent meaningful relationships instead of decoration.
-3. **Better reading flow.** Boards are placed beside the section they explain, so the visual and written context stay together.
-4. **Reusable output.** Scene JSON and deterministic SVG make revisions, validation, and style consistency easier.
-5. **Actionable discussion.** The board gives teams a shared object for discussing priorities, ownership, risks, and next steps.
+2. **Plain-language clarity.** Titles and nodes use concrete actions and outcomes so an unfamiliar reader can understand the board without a glossary.
+3. **Semantic fidelity.** Shapes, lines, layers, axes, and whitespace represent meaningful relationships instead of decoration.
+4. **Better reading flow.** Boards are placed beside the section they explain, so the visual and written context stay together.
+5. **Reusable output.** Scene JSON and deterministic SVG make revisions, validation, and style consistency easier.
+6. **Actionable discussion.** The board gives teams a shared object for discussing priorities, ownership, risks, and next steps.
 
 ### What makes it different
 
 Geometry Board treats visual work as information design rather than image generation:
 
 - It starts with a single core message, not a collection of unstructured labels.
+- It prefers plain business language and concrete verbs over abstract jargon.
 - It uses a small, stable visual vocabulary and one accent color.
 - It removes redundant explanations before shrinking text or filling empty space.
 - It preserves existing boards unless the user explicitly asks for a rearrangement.

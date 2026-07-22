@@ -1,7 +1,7 @@
 interface:
   display_name: "几何视觉画板"
-  short_description: "将自然语言转译为克制、少字的飞书几何图示"
-  default_prompt: "Use $geometry-board to turn this content into a precise, minimal, low-text geometric diagram for a Feishu document, placing each board after its matching section rather than clustering boards together."
+  short_description: "将内容转译为直白易懂、克制少字的飞书几何图示"
+  default_prompt: "Use $geometry-board to turn this content into a clear, plain-language, minimal geometric diagram for a Feishu document, placing each board after its matching section rather than clustering boards together."
 
 policy:
   allow_implicit_invocation: true
