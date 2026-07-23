@@ -1,6 +1,6 @@
 # Geometry Board｜几何视觉画板
 
-把复杂内容压缩成一张“一图一意”、直白易懂、简洁克制、可插入飞书文档的几何视觉画板。
+把复杂内容压缩成一张“一图一意”、直白易懂、简洁克制、有几何编辑感、可插入飞书文档的几何视觉画板。
 
 [English introduction](#english-introduction)
 
@@ -34,23 +34,27 @@
 
 它不是给文字套一个装饰模板，也不是生成一张无法编辑和解释的海报。先抽取关系，再决定构图；圆、线、层、轴和留白各自承担稳定的语义，视觉形式服务于内容判断。
 
-### 3. 让图和正文各司其职
+### 3. 让画面有几何编辑感
+
+它更像一张正在被编辑的结构图，而不是一组信息卡片：主轴、辅助线、定位点、边界、截面和空间距离都用来说明关系。高级感来自比例、对齐、留白、线条层级和克制的对比，不来自阴影、渐变、图标或更多组件。
+
+### 4. 让图和正文各司其职
 
 画板负责让读者快速看到结构，正文负责承载背景、证据和细节。少字不是删掉信息，而是把信息放回最合适的载体，避免一张图同时承担标题、说明、例子和结论。
 
-### 4. 让陌生读者也能马上看懂
+### 5. 让陌生读者也能马上看懂
 
 画板中的文字优先使用日常业务语言和具体动作。标题先说结论，节点尽量回答“谁做什么、先做什么、结果是什么”，少用必须依赖术语表才能理解的抽象词。直白不是随意口语化，而是在保持专业和准确的前提下，让信息少绕一步。
 
-### 5. 让画板真正进入文档阅读流
+### 6. 让画板真正进入文档阅读流
 
 当内容来自飞书云文档时，画板会按主题分散到对应段落，而不是生成完 4 张图后统一堆在文档末尾。读者在读到一个主题时，就能在上下文中看到对应的关系图。
 
-### 6. 让结果可复用、可校验、可迭代
+### 7. 让结果可复用、可校验、可迭代
 
 中间使用 Scene JSON 表达意图、节点和关系，输出使用确定性 SVG/PNG。这样既能检查结构约束，也能在用户说“少一点字”“换成流程图”“保留这个风格”时进行局部修改，而不必从零开始重画。
 
-### 7. 适合需要克制表达的业务场景
+### 8. 适合需要克制表达的业务场景
 
 它尤其适合 OKR 对齐、项目复盘、客户汇报、KDM 识别、流程梳理、产品架构、组织协同和决策讨论等场景：信息复杂，但最终需要让同事快速看懂并继续行动。
 
@@ -82,6 +86,8 @@
 - 充足留白，优先保证关系清晰和缩小后的可读性
 - 默认“少字模式”：标题 + 关键词节点 + 必要关系词
 - 文字优先直白易懂，先写具体动作和结果，再考虑抽象概念
+- 画面优先呈现几何关系，不做等尺寸卡片墙
+- 一个主焦点、一条主路径，其他元素降低视觉重量
 - 中文可见文字默认不超过 80 字，复杂结构硬上限 120 字
 - 单个节点尽量控制在 2–8 个汉字
 - 不使用蓝紫渐变、玻璃拟态、大面积阴影、卡通图标和模板化 SmartArt
@@ -166,6 +172,8 @@ Geometry Board treats visual work as information design rather than image genera
 
 - It starts with a single core message, not a collection of unstructured labels.
 - It prefers plain business language and concrete verbs over abstract jargon.
+- It has an editorial geometric feel rather than a card-grid UI: axes, guide lines, anchor points, boundaries, and spatial relationships remain visible when they help explain the structure.
+- It maintains one clear focal point and one primary path instead of giving every module equal visual weight.
 - It uses a small, stable visual vocabulary and one accent color.
 - It removes redundant explanations before shrinking text or filling empty space.
 - It preserves existing boards unless the user explicitly asks for a rearrangement.
