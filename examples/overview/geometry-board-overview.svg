@@ -13,24 +13,17 @@
   <line x1="120" y1="220" x2="120" y2="236" stroke="#B8B8B8" stroke-width="1"/>
   <line x1="600" y1="220" x2="600" y2="236" stroke="#B8B8B8" stroke-width="1"/>
   <line x1="1080" y1="220" x2="1080" y2="236" stroke="#B8B8B8" stroke-width="1"/>
-  <text x="112" y="198" fill="#999999" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="12" letter-spacing="2">输入</text>
-  <text x="584" y="198" fill="#999999" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="12" letter-spacing="2">处理</text>
+  <text x="112" y="198" fill="#999999" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="12" letter-spacing="2">内容</text>
+  <text x="584" y="198" fill="#999999" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="12" letter-spacing="2">画板</text>
   <text x="1056" y="198" fill="#999999" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="12" letter-spacing="2">结果</text>
 
-  <line x1="128" y1="350" x2="1072" y2="350" stroke="#222222" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="128" y1="350" x2="1072" y2="350" stroke="#222222" stroke-width="1"/>
   <line x1="128" y1="306" x2="1072" y2="306" stroke="#E8E8E8" stroke-width="0.5" stroke-dasharray="4 8"/>
   <line x1="128" y1="394" x2="1072" y2="394" stroke="#E8E8E8" stroke-width="0.5" stroke-dasharray="4 8"/>
 
-  <text x="120" y="278" fill="#111111" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="22" font-weight="600">内容</text>
-  <line x1="176" y1="292" x2="176" y2="408" stroke="#B8B8B8" stroke-width="1"/>
-  <circle cx="176" cy="306" r="5" fill="#999999"/>
-  <text x="194" y="312" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">长文档</text>
-  <circle cx="176" cy="350" r="5" fill="#999999"/>
-  <text x="194" y="356" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">关系多</text>
-  <circle cx="176" cy="394" r="5" fill="#999999"/>
-  <text x="194" y="400" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">要决策</text>
-  <line x1="228" y1="350" x2="468" y2="350" stroke="#222222" stroke-width="1" marker-end="url(#arrow)"/>
-  <text x="300" y="334" fill="#999999" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="12">先理清</text>
+  <circle cx="220" cy="350" r="28" fill="#F5F5F5" stroke="#B8B8B8" stroke-width="1"/>
+  <text x="220" y="357" text-anchor="middle" fill="#111111" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="18" font-weight="600">内容</text>
+  <line x1="248" y1="350" x2="508" y2="350" stroke="#222222" stroke-width="1" marker-end="url(#arrow)"/>
 
   <polygon points="600,260 690,350 600,440 510,350" fill="#F5F5F5" stroke="#2F6BFF" stroke-width="1.5"/>
   <circle cx="600" cy="350" r="42" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="1.5"/>
@@ -40,29 +33,15 @@
   <circle cx="690" cy="350" r="5" fill="#2F6BFF"/>
   <circle cx="600" cy="440" r="5" fill="#2F6BFF"/>
   <circle cx="510" cy="350" r="5" fill="#2F6BFF"/>
-  <text x="566" y="346" fill="#111111" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="20" font-weight="600">几何</text>
-  <text x="566" y="372" fill="#111111" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="20" font-weight="600">画板</text>
-  <text x="532" y="246" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="14">说清楚</text>
-  <text x="704" y="356" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="14">画关系</text>
-  <text x="532" y="468" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="14">放回文档</text>
+  <text x="600" y="357" text-anchor="middle" fill="#111111" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="18" font-weight="600">几何画板</text>
 
   <line x1="732" y1="350" x2="944" y2="350" stroke="#222222" stroke-width="1" marker-end="url(#arrow)"/>
   <text x="810" y="334" fill="#999999" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="12">看得见</text>
-  <text x="970" y="278" fill="#111111" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="22" font-weight="600">下一步</text>
-  <line x1="1000" y1="292" x2="1000" y2="408" stroke="#B8B8B8" stroke-width="1"/>
-  <circle cx="1000" cy="306" r="5" fill="#2F6BFF"/>
-  <text x="1020" y="312" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">看懂</text>
-  <circle cx="1000" cy="350" r="5" fill="#2F6BFF"/>
-  <text x="1020" y="356" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">对齐</text>
-  <circle cx="1000" cy="394" r="5" fill="#2F6BFF"/>
-  <text x="1020" y="400" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">行动</text>
-
-  <line x1="88" y1="506" x2="1112" y2="506" stroke="#E8E8E8" stroke-width="1"/>
-  <circle cx="112" cy="554" r="5" fill="#2F6BFF"/>
-  <text x="128" y="560" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">少字</text>
-  <circle cx="360" cy="554" r="5" fill="#2F6BFF"/>
-  <text x="376" y="560" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">重点清楚</text>
-  <circle cx="632" cy="554" r="5" fill="#2F6BFF"/>
-  <text x="648" y="560" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">放对位置</text>
-  <text x="896" y="560" fill="#999999" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="14">图讲关系｜正文讲细节</text>
+  <circle cx="900" cy="350" r="5" fill="#2F6BFF"/>
+  <text x="900" y="386" text-anchor="middle" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">看懂</text>
+  <circle cx="970" cy="350" r="5" fill="#2F6BFF"/>
+  <text x="970" y="386" text-anchor="middle" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">对齐</text>
+  <circle cx="1040" cy="350" r="5" fill="#2F6BFF"/>
+  <text x="1040" y="386" text-anchor="middle" fill="#666666" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="16">行动</text>
+  <text x="600" y="500" text-anchor="middle" fill="#999999" font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif" font-size="14">说清楚 · 画关系 · 放回文档</text>
 </svg>
