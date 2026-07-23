@@ -2,7 +2,7 @@ interface:
   display_name: "蓝点几何画板"
   short_description: "蓝点有语义、直白易懂、克制少字的几何飞书画板"
   brand_color: "#2F6BFF"
-  default_prompt: "Use $geometry-board to turn this content into a clear, plain-language, restrained point-line-plane-volume diagram; choose cards, points, lines, or a hybrid based on the relationships, use Geometry Blue and blue dots only when their semantics are clear, then place each board after its matching section."
+  default_prompt: "Use $geometry-board to turn this content into a clear, plain-language, restrained point-line-plane-volume diagram; choose cards, points, lines, natural curves, or a hybrid based on the relationships, use Geometry Blue and blue dots only when their semantics are clear, and use symmetric or mirrored curves when multiple curved relations are needed; then place each board after its matching section."
 
 policy:
   allow_implicit_invocation: true
