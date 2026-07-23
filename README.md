@@ -91,15 +91,16 @@
 | 点和线 | 顺序、路径、依赖、网络、流动、信号、变化、共同中心 |
 | 混合 | 模块边界真实存在，同时模块之间有重要路径或依赖 |
 
-判断方法很简单：去掉边框后关系仍然清楚，就优先用点和线；去掉边界后独立模块无法识别，才保留卡片。卡片不是禁用项，卡片墙才是问题。
+判断方法很简单：去掉边框后关系仍然清楚，就优先用点和线；去掉边界后独立模块无法识别，才保留卡片。卡片不是禁用项，卡片墙才是问题。先做这个判断，再选择构图模板；不要因为熟悉某种模板，就把所有内容都改造成同一种容器。
 
 ## 版式原则
 
 - 居中：主视觉中心落在画布主轴或有意设置的视觉中心，文字中心与几何中心一致。
-- 对齐：使用 8 px 网格、共同基线、共同轴线和统一内边距，不接受“差一点”的错位。
+- 对齐：使用 8 px 网格、共同基线、共同轴线和统一内边距；对齐是为了让关系可读，不是把所有元素机械排成一列，不接受“差一点”的错位。
 - 排列：默认左到右、上到下，一张图只保留一条主路径，相关元素成组，连线尽量不交叉。
 - 紧密度：同组更紧，相关组适中，独立组拉开；距离表达关系强弱，不把元素平均铺满画布。
 - 密度：关系密集处可以紧凑，但必须有层级；关系稀疏处保留空白，不用组件填空。
+- 关系优先：如果边框只是装饰或遮住主路径，就改用点、线、面、层或空间距离。
 
 ## 视觉原则
 
@@ -215,6 +216,8 @@ Geometry Board treats visual work as information design rather than image genera
 - It maintains one clear focal point and one primary path instead of giving every module equal visual weight.
 - It chooses cards for independent, bounded, comparable modules; points and lines for paths, dependencies, networks, and flows; and a hybrid only when both boundaries and relationships matter.
 - It applies explicit layout rules for centering, alignment, reading order, grouping, spacing, and relationship-driven density.
+- It chooses the representation before the composition template, so a familiar template never overrides the actual relationship.
+- It treats alignment as a tool for readable relationships, not as mechanical column-making; decorative containers are removed when they hide the main path.
 - It uses a small, stable visual vocabulary and one accent color.
 - It removes redundant explanations before shrinking text or filling empty space.
 - It preserves existing boards unless the user explicitly asks for a rearrangement.
