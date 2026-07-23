@@ -8,7 +8,9 @@
 
 ## 一张图看懂 Geometry Board
 
-<img src="examples/overview/geometry-board-overview.svg" alt="Geometry Board 总览：把内容画成看得懂的图" width="900" />
+<p align="center">
+  <img src="examples/overview/geometry-board-overview.svg" alt="Geometry Board 总览：把内容画成看得懂的图" width="900" />
+</p>
 
 ## 名字
 
@@ -114,37 +116,53 @@
 
 #### OKR 对齐会：把目标拉齐为方向
 
-<img src="examples/okr/okr-alignment-board.svg" alt="OKR 对齐会：把目标拉齐为方向" width="900" />
+<p align="center">
+  <img src="examples/okr/okr-alignment-board.svg" alt="OKR 对齐会：把目标拉齐为方向" width="900" />
+</p>
 
 #### OKR 对齐：先管理层，再部门层，最后团队层
 
-<img src="examples/okr/okr-alignment-levels.svg" alt="OKR 对齐层级" width="900" />
+<p align="center">
+  <img src="examples/okr/okr-alignment-levels.svg" alt="OKR 对齐层级" width="900" />
+</p>
 
 #### OKR 评审的四个问题
 
-<img src="examples/okr/okr-review-matrix.svg" alt="OKR 评审的四个问题" width="900" />
+<p align="center">
+  <img src="examples/okr/okr-review-matrix.svg" alt="OKR 评审的四个问题" width="900" />
+</p>
 
 #### 跨部门优先级冲突：对齐的是价值
 
-<img src="examples/okr/okr-priority-escalation.svg" alt="跨部门优先级冲突" width="900" />
+<p align="center">
+  <img src="examples/okr/okr-priority-escalation.svg" alt="跨部门优先级冲突" width="900" />
+</p>
 
 ### 示例二：People 干系人 / KDM 汇报
 
 #### KDM：关键角色不是名单，而是决策权
 
-<img src="examples/kdm/kdm-roles.svg" alt="KDM 关键角色" width="900" />
+<p align="center">
+  <img src="examples/kdm/kdm-roles.svg" alt="KDM 关键角色" width="900" />
+</p>
 
 #### KDM 诉求：先听见，再形成画像
 
-<img src="examples/kdm/kdm-needs.svg" alt="KDM 诉求来源与画像" width="900" />
+<p align="center">
+  <img src="examples/kdm/kdm-needs.svg" alt="KDM 诉求来源与画像" width="900" />
+</p>
 
 #### 汇报目标：先让 KDM 满意
 
-<img src="examples/kdm/report-goals.svg" alt="KDM 汇报目标" width="900" />
+<p align="center">
+  <img src="examples/kdm/report-goals.svg" alt="KDM 汇报目标" width="900" />
+</p>
 
 #### 汇报内容搭建：先骨架，再填充
 
-<img src="examples/kdm/report-pyramid.svg" alt="汇报内容搭建" width="900" />
+<p align="center">
+  <img src="examples/kdm/report-pyramid.svg" alt="汇报内容搭建" width="900" />
+</p>
 
 ## English introduction
 
