@@ -81,6 +81,26 @@
 | `section-space` | 内部结构、平台能力、空间层次 |
 | `tension-contrast` | 冲突、权衡、旧新模式 |
 
+## 什么时候用卡片，什么时候用点和线
+
+不是所有内容都要画成点线，也不是所有内容都要装进卡片。先判断读者要看的是对象本身，还是对象之间的关系：
+
+| 表达方式 | 适合情况 |
+| --- | --- |
+| 卡片 | 独立模块、并列比较、明确边界、每项有自己的短说明 |
+| 点和线 | 顺序、路径、依赖、网络、流动、信号、变化、共同中心 |
+| 混合 | 模块边界真实存在，同时模块之间有重要路径或依赖 |
+
+判断方法很简单：去掉边框后关系仍然清楚，就优先用点和线；去掉边界后独立模块无法识别，才保留卡片。卡片不是禁用项，卡片墙才是问题。
+
+## 版式原则
+
+- 居中：主视觉中心落在画布主轴或有意设置的视觉中心，文字中心与几何中心一致。
+- 对齐：使用 8 px 网格、共同基线、共同轴线和统一内边距，不接受“差一点”的错位。
+- 排列：默认左到右、上到下，一张图只保留一条主路径，相关元素成组，连线尽量不交叉。
+- 紧密度：同组更紧，相关组适中，独立组拉开；距离表达关系强弱，不把元素平均铺满画布。
+- 密度：关系密集处可以紧凑，但必须有层级；关系稀疏处保留空白，不用组件填空。
+
 ## 视觉原则
 
 - 默认画布 `1200 × 675`，比例 `16:9`
@@ -193,6 +213,8 @@ Geometry Board treats visual work as information design rather than image genera
 - It prefers plain business language and concrete verbs over abstract jargon.
 - It has an editorial geometric feel rather than a card-grid UI: axes, guide lines, anchor points, boundaries, and spatial relationships remain visible when they help explain the structure.
 - It maintains one clear focal point and one primary path instead of giving every module equal visual weight.
+- It chooses cards for independent, bounded, comparable modules; points and lines for paths, dependencies, networks, and flows; and a hybrid only when both boundaries and relationships matter.
+- It applies explicit layout rules for centering, alignment, reading order, grouping, spacing, and relationship-driven density.
 - It uses a small, stable visual vocabulary and one accent color.
 - It removes redundant explanations before shrinking text or filling empty space.
 - It preserves existing boards unless the user explicitly asks for a rearrangement.
