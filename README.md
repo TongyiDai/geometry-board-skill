@@ -56,6 +56,23 @@
 
 中间使用 Scene JSON 表达意图、节点和关系，输出使用确定性 SVG/PNG。这样既能检查结构约束，也能在用户说“少一点字”“换成流程图”“保留这个风格”时进行局部修改，而不必从零开始重画。
 
+## 点线面体：核心视觉语言
+
+Geometry Board 的核心不是“把内容画成几何图标”，而是用点、线、面、体把关系画出来：
+
+| 元素 | 表达什么 |
+| --- | --- |
+| 点 | 对象、角色、事件、信号、状态 |
+| 线 | 连接、路径、方向、依赖、流动 |
+| 面 | 群组、阶段、范围、环境、共同属性 |
+| 体 | 系统、层级、空间剖面、整体结构 |
+
+关系通过位置、距离、尺度、方向、线宽、对齐、重复、包含、重叠、透明度和空白被看见。点可以排列成线，线可以展开成面，面通过叠层、切面或轴测形成体；体积感服务于结构，不用写实光影装饰。
+
+设计原则来自同一套视觉语法：重复与变化形成节奏，尺度建立层级，接近与相似形成分组，连续与方向形成路径，边界与图层表达范围，透明度表达交叠，网格和模块保持秩序，规则与有限随机性制造变化。
+
+默认使用白底、黑白灰和唯一的 `#2F6BFF` Geometry Blue。蓝色面积小而位置准，只标出核心对象、主路径、当前状态、风险或变化。详细规则见 [点线面体与视觉关系语言](references/design-language.md)。
+
 ### 8. 适合需要克制表达的业务场景
 
 它尤其适合 OKR 对齐、项目复盘、客户汇报、KDM 识别、流程梳理、产品架构、组织协同和决策讨论等场景：信息复杂，但最终需要让同事快速看懂并继续行动。
@@ -216,6 +233,8 @@ Geometry Board treats visual work as information design rather than image genera
 - It maintains one clear focal point and one primary path instead of giving every module equal visual weight.
 - It chooses cards for independent, bounded, comparable modules; points and lines for paths, dependencies, networks, and flows; and a hybrid only when both boundaries and relationships matter.
 - It applies explicit layout rules for centering, alignment, reading order, grouping, spacing, and relationship-driven density.
+- It uses point, line, plane, and volume as a generative visual language: points locate objects, lines reveal movement and connection, planes define groups and fields, and volume shows layered systems or spatial structure.
+- It uses rhythm, scale, Gestalt grouping, framing, layers, transparency, modularity, grids, pattern, time, and controlled rules to make relationships legible without adding decoration.
 - It chooses the representation before the composition template, so a familiar template never overrides the actual relationship.
 - It treats alignment as a tool for readable relationships, not as mechanical column-making; decorative containers are removed when they hide the main path.
 - It uses a small, stable visual vocabulary and one accent color.
