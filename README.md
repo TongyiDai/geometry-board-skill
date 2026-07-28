@@ -98,6 +98,21 @@ Geometry Board 的核心不是“把内容画成几何图标”，而是用点�
 | `section-space` | 内部结构、平台能力、空间层次 |
 | `tension-contrast` | 冲突、权衡、旧新模式 |
 
+## 多张画板：统一风格，变化构图
+
+一组画板需要稳定的视觉系统，也需要足够不同的阅读方式。标题、字体、颜色、线宽和留白保持一致，主体关系区根据内容切换：
+
+- 系统组成：经典汇聚，`输入 → 系统/Harness → 结果`
+- 信息筛选：纵向漏斗
+- 双类型或双资料库：对称双栏
+- 工具连接真实世界：上下边界
+- 有无增量：双路径对照
+- 双条件判断：二维矩阵
+
+4 张画板至少使用 3 种构图家族，6 张至少使用 4 种。系列开头可保留一张经典锚点图，帮助读者快速建立认知；构图变化服从内容关系，不为变化而变化。
+
+标题还要通过“3 秒复述测试”：读者只看标题和主关系，就能说出核心判断。公式直接写公式，分类直接说“分两类”，条件直接说“满足两个条件才做”，具体动作直接写结果。
+
 ## 什么时候用卡片，什么时候用点和线
 
 不是所有内容都要画成点线，也不是所有内容都要装进卡片。先判断读者要看的是对象本身，还是对象之间的关系：
@@ -236,6 +251,9 @@ Geometry Board treats visual work as information design rather than image genera
 - It uses point, line, plane, and volume as a generative visual language: points locate objects, lines reveal movement and connection, planes define groups and fields, and volume shows layered systems or spatial structure.
 - It uses rhythm, scale, Gestalt grouping, framing, layers, transparency, modularity, grids, pattern, time, and controlled rules to make relationships legible without adding decoration.
 - It chooses the representation before the composition template, so a familiar template never overrides the actual relationship.
+- It varies the main composition across a board series while keeping typography, color, spacing, and line language consistent; a six-board set should normally use at least four composition families.
+- It retains one proven anchor composition when the content fits, especially the classic `inputs → system/Harness → result` structure for an opening overview.
+- It applies a three-second restatement test: a reader should be able to repeat the core judgment from the title and main relationship without first decoding the metaphor.
 - It treats alignment as a tool for readable relationships, not as mechanical column-making; decorative containers are removed when they hide the main path.
 - It uses a small, stable visual vocabulary and one accent color.
 - It removes redundant explanations before shrinking text or filling empty space.
