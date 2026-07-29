@@ -1,0 +1,19 @@
+{
+  "canvas": {"width": 1200, "height": 675, "ratio": "16:9", "background": "#FFFFFF", "grid": 8},
+  "intent": {"core_message": "先形成共同语言，再分流到判断和行动", "composition": "radial-center", "focus_node": "shared"},
+  "style": {"theme": "geometry-minimal", "accent_color": "#2F6BFF", "line_weight": 1, "corner_radius": 0},
+  "meta": {"id": "mixed-audience", "title": "先给共同语言，再讲专业细节", "subtitle": "技术读者看深度，非技术读者先看判断、边界和下一步"},
+  "nodes": [
+    {"id": "technical", "type": "plane", "label": "技术内容", "importance": 2},
+    {"id": "business", "type": "plane", "label": "业务问题", "importance": 2},
+    {"id": "shared", "type": "circle", "label": "共同语言", "importance": 5},
+    {"id": "criteria", "type": "rect", "label": "判断标准", "importance": 3},
+    {"id": "action", "type": "point", "label": "下一步", "importance": 3}
+  ],
+  "edges": [
+    {"from": "technical", "to": "shared", "relation": "翻译"},
+    {"from": "business", "to": "shared", "relation": "对齐"},
+    {"from": "shared", "to": "criteria", "relation": "判断"},
+    {"from": "shared", "to": "action", "relation": "行动"}
+  ]
+}

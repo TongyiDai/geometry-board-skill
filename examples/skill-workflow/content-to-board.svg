@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#222222" stroke-width="1"/></marker>
+  </defs>
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <g font-family="PingFang SC, Source Han Sans SC, Arial, sans-serif">
+    <text x="88" y="66" fill="#111111" font-size="32" font-weight="600">先说清楚，再决定怎么画</text>
+    <text x="88" y="98" fill="#666666" font-size="16">画板先回答：读者看完要做什么？</text>
+    <line x1="88" y1="126" x2="1112" y2="126" stroke="#E8E8E8"/>
+    <line x1="144" y1="360" x2="1056" y2="360" stroke="#222222"/>
+    <line x1="144" y1="328" x2="144" y2="392" stroke="#B8B8B8"/>
+    <line x1="600" y1="328" x2="600" y2="392" stroke="#B8B8B8"/>
+    <line x1="1056" y1="328" x2="1056" y2="392" stroke="#B8B8B8"/>
+    <text x="144" y="300" text-anchor="middle" fill="#999999" font-size="12" letter-spacing="2">原文</text>
+    <text x="600" y="300" text-anchor="middle" fill="#999999" font-size="12" letter-spacing="2">判断</text>
+    <text x="1056" y="300" text-anchor="middle" fill="#999999" font-size="12" letter-spacing="2">行动</text>
+    <path d="M270 360 C360 310 420 310 510 360" fill="none" stroke="#222222" marker-end="url(#arrow)"/>
+    <rect x="124" y="320" width="148" height="80" fill="#F5F5F5" stroke="#B8B8B8"/>
+    <text x="198" y="355" text-anchor="middle" fill="#111111" font-size="20" font-weight="600">原文</text>
+    <text x="198" y="379" text-anchor="middle" fill="#777777" font-size="12">信息很多</text>
+    <polygon points="600,248 696,360 600,472 504,360" fill="#F5F5F5" stroke="#2F6BFF" stroke-width="1.5"/>
+    <circle cx="600" cy="360" r="44" fill="#FFFFFF" stroke="#2F6BFF" stroke-width="1.5"/>
+    <circle cx="600" cy="360" r="6" fill="#2F6BFF"/>
+    <text x="600" y="354" text-anchor="middle" fill="#111111" font-size="18" font-weight="600">核心判断</text>
+    <text x="600" y="380" text-anchor="middle" fill="#777777" font-size="12">先说清楚</text>
+    <path d="M690 360 C770 310 820 310 900 360" fill="none" stroke="#222222" marker-end="url(#arrow)"/>
+    <rect x="900" y="320" width="148" height="80" fill="#F5F5F5" stroke="#B8B8B8"/>
+    <text x="974" y="355" text-anchor="middle" fill="#111111" font-size="20" font-weight="600">几何关系</text>
+    <text x="974" y="379" text-anchor="middle" fill="#777777" font-size="12">看懂后行动</text>
+    <text x="600" y="548" text-anchor="middle" fill="#999999" font-size="14">内容 → 判断 → 关系 → 下一步</text>
+  </g>
+</svg>

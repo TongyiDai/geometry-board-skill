@@ -1,0 +1,17 @@
+{
+  "canvas": {"width": 1200, "height": 675, "ratio": "16:9", "background": "#FFFFFF", "grid": 8},
+  "intent": {"core_message": "画板应当跟着主题进入文档阅读流", "composition": "section-space", "focus_node": "anchor"},
+  "style": {"theme": "geometry-minimal", "accent_color": "#2F6BFF", "line_weight": 1, "corner_radius": 0},
+  "meta": {"id": "document-flow", "title": "画板应该跟着主题走", "subtitle": "读到哪一段，就在那一段看到对应的关系图"},
+  "nodes": [
+    {"id": "background", "type": "plane", "label": "背景", "importance": 2},
+    {"id": "anchor", "type": "point", "label": "主题锚点", "importance": 5},
+    {"id": "board", "type": "frame", "label": "对应画板", "importance": 4},
+    {"id": "detail", "type": "plane", "label": "细节", "importance": 2}
+  ],
+  "edges": [
+    {"from": "background", "to": "anchor", "relation": "读到主题"},
+    {"from": "anchor", "to": "board", "relation": "就地解释"},
+    {"from": "board", "to": "detail", "relation": "回到正文"}
+  ]
+}

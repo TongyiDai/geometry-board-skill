@@ -165,7 +165,7 @@ Geometry Board 的核心不是“把内容画成几何图标”，而是用点�
 
 ## 示例
 
-下面的示例来自两份实际飞书文档：一份围绕 OKR 对齐与评审，另一份围绕 People 干系人 / KDM 汇报。示例保留了同一套视觉系统，但每张图只承担一个主题。
+下面的示例来自两份实际飞书文档，以及一组对 Skill 工作方式的说明：OKR 对齐与评审、People 干系人 / KDM 汇报、从内容到画板的工作流。示例保留了同一套视觉系统，但每张图只承担一个主题。
 
 ### 示例一：OKR 对齐与评审
 
@@ -217,6 +217,34 @@ Geometry Board 的核心不是“把内容画成几何图标”，而是用点�
 
 <p align="center">
   <img src="examples/kdm/report-pyramid.svg" alt="汇报内容搭建" width="900" />
+</p>
+
+### 示例三：蓝点几何画板的工作方式
+
+这组示例对应 README 中原本没有配图的能力说明：如何从内容提炼判断、如何选择表达方式、如何把画板放回文档，以及如何让技术和非技术读者共享同一张图。
+
+#### 先说清楚，再决定怎么画
+
+<p align="center">
+  <img src="examples/skill-workflow/content-to-board.svg" alt="从原文提炼核心判断，再转成几何关系" width="900" />
+</p>
+
+#### 关系决定表达方式
+
+<p align="center">
+  <img src="examples/skill-workflow/representation-choice.svg" alt="根据对象关系选择卡片、点线或混合表达" width="900" />
+</p>
+
+#### 画板应该跟着主题走
+
+<p align="center">
+  <img src="examples/skill-workflow/document-flow.svg" alt="把对应画板插入文档主题段落的阅读流" width="900" />
+</p>
+
+#### 先给共同语言，再讲专业细节
+
+<p align="center">
+  <img src="examples/skill-workflow/mixed-audience.svg" alt="让技术内容和业务问题汇聚成共同语言" width="900" />
 </p>
 
 ## English introduction
@@ -271,7 +299,7 @@ When several boards are requested for a Feishu document, the Skill first reads t
 
 ### Example sources
 
-The examples in this repository come from two real document-oriented use cases: OKR alignment and review, and People stakeholder / KDM reporting. They demonstrate how the same visual system can express different structures without turning the board into a full-text slide.
+The examples in this repository cover two real document-oriented use cases—OKR alignment and review, and People stakeholder / KDM reporting—plus a visual explanation of the Skill workflow. Together they show how one visual system can express different structures without turning the board into a full-text slide.
 
 ## 目录结构
 
@@ -286,7 +314,8 @@ geometry-board/
 └── examples/                         # 实际画板 SVG 示例
     ├── overview/                     # Skill 总览画板与 Scene JSON
     ├── okr/
-    └── kdm/
+    ├── kdm/
+    └── skill-workflow/                # Skill 工作方式示例与 Scene JSON
 ```
 
 ## 使用方式

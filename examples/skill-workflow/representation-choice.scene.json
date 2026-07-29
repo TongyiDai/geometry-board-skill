@@ -1,0 +1,15 @@
+{
+  "canvas": {"width": 1200, "height": 675, "ratio": "16:9", "background": "#FFFFFF", "grid": 8},
+  "intent": {"core_message": "表达方式要跟着对象关系走", "composition": "tension-contrast", "focus_node": "hybrid"},
+  "style": {"theme": "geometry-minimal", "accent_color": "#2F6BFF", "line_weight": 1, "corner_radius": 0},
+  "meta": {"id": "representation-choice", "title": "关系决定表达方式", "subtitle": "独立对象用卡片，路径依赖用点线，两者都重要时混合"},
+  "nodes": [
+    {"id": "module", "type": "rect", "label": "独立模块", "importance": 3},
+    {"id": "path", "type": "line", "label": "路径依赖", "importance": 3},
+    {"id": "hybrid", "type": "frame", "label": "边界＋关系", "importance": 5}
+  ],
+  "edges": [
+    {"from": "module", "to": "hybrid", "relation": "保留边界"},
+    {"from": "path", "to": "hybrid", "relation": "看见关系"}
+  ]
+}

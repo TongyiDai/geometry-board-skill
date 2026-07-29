@@ -1,0 +1,17 @@
+{
+  "canvas": {"width": 1200, "height": 675, "ratio": "16:9", "background": "#FFFFFF", "grid": 8},
+  "intent": {"core_message": "先明确读者要看懂的判断，再选择几何表达", "composition": "input-process-output", "focus_node": "judgment"},
+  "style": {"theme": "geometry-minimal", "accent_color": "#2F6BFF", "line_weight": 1, "corner_radius": 0},
+  "meta": {"id": "content-to-board", "title": "先说清楚，再决定怎么画", "subtitle": "画板先回答：读者看完要做什么？"},
+  "nodes": [
+    {"id": "content", "type": "plane", "label": "原文", "importance": 2},
+    {"id": "judgment", "type": "circle", "label": "核心判断", "importance": 5},
+    {"id": "relation", "type": "cube", "label": "几何关系", "importance": 4},
+    {"id": "action", "type": "point", "label": "下一步", "importance": 3}
+  ],
+  "edges": [
+    {"from": "content", "to": "judgment", "relation": "提炼"},
+    {"from": "judgment", "to": "relation", "relation": "转译"},
+    {"from": "relation", "to": "action", "relation": "看懂后行动"}
+  ]
+}
