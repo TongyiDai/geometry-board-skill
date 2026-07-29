@@ -1,6 +1,6 @@
 <div align="center">
 
-### **蓝色波点 · Pale Blue Dot**
+### **蓝色波点 · Blue Dot**
 
 **旅行者号回望时，那里只有一颗安静的蓝色波点。**
 
@@ -13,7 +13,7 @@
 
 ---
 
-# 蓝色波点几何画板｜Geometry Board
+# 蓝色波点几何画板｜Blue Dot
 
 把复杂内容压缩成一张“一图一意”、直白易懂、简洁克制、有几何编辑感、可插入飞书文档的几何视觉画板。
 
@@ -29,15 +29,9 @@
 
 ## 名字
 
-- 英文名：`Geometry Board`
+- 英文名：`Blue Dot`
 - 中文名：`蓝色波点几何画板`
 - Skill ID：`geometry-board`
-
-### 名字的由来
-
-灵感来自无边宇宙里那一颗水蓝色的行星——旅行者号回望时，那里只有一颗安静的蓝色波点。
-
-在 AI 生成的内容已经满溢的今天，图也越画越满、越画越吵。这个画板想反着来：保留一点蓝色的克制。白底、留白、黑白灰，只留一个蓝点标出真正要紧的地方。少画一点，才看得清。
 
 ## 它解决什么问题
 
@@ -51,7 +45,7 @@
 
 ### 1. 把复杂信息变成可讨论的对象
 
-长文档适合完整记录，但不一定适合快速理解。Geometry Board 把流程、层级、角色、依赖、冲突和判断标准转成一张结构清楚的图，让团队可以围绕同一个视觉对象讨论“谁影响谁、先做什么、哪里需要决策”。
+长文档适合完整记录，但不一定适合快速理解。蓝色波点把流程、层级、角色、依赖、冲突和判断标准转成一张结构清楚的图，让团队可以围绕同一个视觉对象讨论“谁影响谁、先做什么、哪里需要决策”。
 
 ### 2. 把“好看”建立在信息关系上
 
@@ -79,7 +73,7 @@
 
 ## 点线面体：核心视觉语言
 
-Geometry Board 的核心不是“把内容画成几何图标”，而是用点、线、面、体把关系画出来：
+蓝色波点的核心不是“把内容画成几何图标”，而是用点、线、面、体把关系画出来：
 
 | 元素 | 表达什么 |
 | --- | --- |
@@ -272,7 +266,7 @@ Geometry Board 的核心不是“把内容画成几何图标”，而是用点�
 
 ### What it is
 
-Geometry Board is a Codex Skill for turning dense business content into clear, plain-language, restrained, low-text geometric diagrams that can be reviewed, exported, and embedded into Feishu documents.
+Blue Dot is a Codex Skill for turning dense business content into clear, plain-language, restrained, low-text geometric diagrams that can be reviewed, exported, and embedded into Feishu documents.
 
 It works from natural-language prompts, selected document sections, or existing diagrams. The Skill extracts the core message, identifies the underlying relationships, selects a suitable composition, generates a structured Scene JSON, and renders a deterministic SVG or PNG.
 
@@ -280,7 +274,7 @@ It works from natural-language prompts, selected document sections, or existing 
 
 Business documents often mix timelines, ownership, dependencies, decision rights, inputs, outputs, and evaluation criteria in the same page. A generic diagram generator may produce something visually attractive but semantically loose, text-heavy, or disconnected from the document context.
 
-Geometry Board is designed around six practical outcomes:
+Blue Dot is designed around six practical outcomes:
 
 1. **Faster understanding.** One board communicates one core judgment at a glance.
 2. **Plain-language clarity.** Titles and nodes use concrete actions and outcomes so an unfamiliar reader can understand the board without a glossary.
@@ -292,7 +286,7 @@ Geometry Board is designed around six practical outcomes:
 
 ### What makes it different
 
-Geometry Board treats visual work as information design rather than image generation:
+Blue Dot treats visual work as information design rather than image generation:
 
 - It starts with a single core message, not a collection of unstructured labels.
 - It prefers plain business language and concrete verbs over abstract jargon.
