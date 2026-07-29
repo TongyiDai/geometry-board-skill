@@ -1,4 +1,4 @@
-# 蓝点几何画板｜Geometry Board
+# 蓝色波点几何画板｜Geometry Board
 
 把复杂内容压缩成一张“一图一意”、直白易懂、简洁克制、有几何编辑感、可插入飞书文档的几何视觉画板。
 
@@ -6,16 +6,16 @@
 
 这是一个面向 Codex 的 Skill。它负责从自然语言、飞书文档段落或已有图示中提炼核心判断，选择合适的几何构图，生成结构化 Scene JSON，再渲染为 SVG/PNG；当用户要求插入飞书云文档时，还会把每张画板放到对应主题段落附近，而不是统一堆在文档末尾。
 
-## 一张图看懂蓝点几何画板
+## 一张图看懂蓝色波点几何画板
 
 <p align="center">
-  <img src="examples/overview/geometry-board-overview.svg" alt="蓝点几何画板总览：把内容画成看得懂的图" width="900" />
+  <img src="examples/overview/geometry-board-overview.svg" alt="蓝色波点几何画板总览：把内容画成看得懂的图" width="900" />
 </p>
 
 ## 名字
 
 - 英文名：`Geometry Board`
-- 中文名：`蓝点几何画板`
+- 中文名：`蓝色波点几何画板`
 - Skill ID：`geometry-board`
 
 ## 它解决什么问题
@@ -219,7 +219,7 @@ Geometry Board 的核心不是“把内容画成几何图标”，而是用点�
   <img src="examples/kdm/report-pyramid.svg" alt="汇报内容搭建" width="900" />
 </p>
 
-### 示例三：蓝点几何画板的工作方式
+### 示例三：蓝色波点几何画板的工作方式
 
 这组示例对应 README 中原本没有配图的能力说明：如何从内容提炼判断、如何选择表达方式、如何把画板放回文档，以及如何让技术和非技术读者共享同一张图。
 
