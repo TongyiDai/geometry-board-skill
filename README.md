@@ -24,7 +24,7 @@
 
 > 这张图要让读者一眼理解什么？
 
-然后只保留一个核心判断，用节点、线、层级、留白和单一强调色表达关系，把完整解释留给正文。
+然后只保留一个核心判断，用节点、线、层级、留白和单一强调色表达关系；画板用必要副标题补充一行解释，正文保留背景、证据和细节，避免两处重复。
 
 ## 它的价值
 
@@ -42,11 +42,11 @@
 
 ### 4. 让图和正文各司其职
 
-画板负责让读者快速看到结构，正文负责承载背景、证据和细节。少字不是删掉信息，而是把信息放回最合适的载体，避免一张图同时承担标题、说明、例子和结论。
+画板负责让读者快速看到核心判断、关系和必要副标题，正文负责承载背景、证据、链接和细节。少字的关键是把解释放回最合适的载体：画板消除局部理解障碍，正文提供阅读理由和可核验信息；画板插入后，正文删去重复导语。
 
 ### 5. 让陌生读者也能马上看懂
 
-画板中的文字优先使用日常业务语言和具体动作。标题先说结论，节点尽量回答“谁做什么、先做什么、结果是什么”，少用必须依赖术语表才能理解的抽象词。直白不是随意口语化，而是在保持专业和准确的前提下，让信息少绕一步。
+画板中的文字优先使用日常业务语言和具体动作。技术和非技术共读时，先说明读者能获得的共同语言、判断标准、应用边界或下一步动作，再出现必要术语。标题先说结论，副标题补充一行“为什么/怎么用”，节点回答“谁做什么、先做什么、结果是什么”，少用必须依赖术语表才能理解的抽象词。直白不是随意口语化，而是在保持专业和准确的前提下，让信息少绕一步。
 
 ### 6. 让画板真正进入文档阅读流
 
@@ -145,6 +145,7 @@ Geometry Board 的核心不是“把内容画成几何图标”，而是用点�
 - 画面优先呈现几何关系，不做等尺寸卡片墙
 - 一个主焦点、一条主路径，其他元素降低视觉重量
 - 中文可见文字默认不超过 80 字，复杂结构硬上限 120 字
+- 副标题可承担一行必要解释；正文与画板不重复表达同一局部判断
 - 单个节点尽量控制在 2–8 个汉字
 - 不使用蓝紫渐变、玻璃拟态、大面积阴影、卡通图标和模板化 SmartArt
 
@@ -158,6 +159,7 @@ Geometry Board 的核心不是“把内容画成几何图标”，而是用点�
 4. 多张画板按正文主题出现顺序分散插入；同一主题的多张图才保持连续。
 5. 保留原文已有画板及相对位置，不默认重排。
 6. 写入后读回每个画板前后的文本，核对画板主题与段落主题是否匹配。
+7. 若标题和副标题已经说清该段关系，正文采用“章节标题 → 画板”的紧凑结构，删除重复导语，保留背景、证据和链接。
 
 只有用户明确要求“集中展示”时，才会把多张画板放在同一处。
 
@@ -237,6 +239,7 @@ Geometry Board is designed around six practical outcomes:
 4. **Better reading flow.** Boards are placed beside the section they explain, so the visual and written context stay together.
 5. **Reusable output.** Scene JSON and deterministic SVG make revisions, validation, and style consistency easier.
 6. **Actionable discussion.** The board gives teams a shared object for discussing priorities, ownership, risks, and next steps.
+7. **Shared value for mixed audiences.** It states the practical takeaway before technical vocabulary, uses a concise subtitle when one line of explanation helps, and removes duplicate explanations from the surrounding document prose.
 
 ### What makes it different
 
@@ -254,6 +257,8 @@ Geometry Board treats visual work as information design rather than image genera
 - It varies the main composition across a board series while keeping typography, color, spacing, and line language consistent; a six-board set should normally use at least four composition families.
 - It retains one proven anchor composition when the content fits, especially the classic `inputs → system/Harness → result` structure for an opening overview.
 - It applies a three-second restatement test: a reader should be able to repeat the core judgment from the title and main relationship without first decoding the metaphor.
+- It makes the reader's takeaway explicit for mixed technical and non-technical audiences: shared language, judgment criteria, boundaries, or the next action.
+- It uses the title for the conclusion, the subtitle for one necessary clarification, and the nodes for actions and outcomes; the document keeps background, evidence, links, and details without repeating the board's local explanation.
 - It treats alignment as a tool for readable relationships, not as mechanical column-making; decorative containers are removed when they hide the main path.
 - It uses a small, stable visual vocabulary and one accent color.
 - It removes redundant explanations before shrinking text or filling empty space.
@@ -262,7 +267,7 @@ Geometry Board treats visual work as information design rather than image genera
 
 ### Feishu document behavior
 
-When several boards are requested for a Feishu document, the Skill first reads the document outline and nearby paragraphs. It then creates a mapping of `board topic → section → insertion anchor`, places each board after the paragraph that introduces its topic, and verifies the text before and after every inserted board. Boards are clustered only when they belong to the same topic or when the user explicitly requests a gallery-style section.
+When several boards are requested for a Feishu document, the Skill first reads the document outline and nearby paragraphs. It then creates a mapping of `board topic → section → insertion anchor`, places each board after the paragraph that introduces its topic, and verifies the text before and after every inserted board. When a board title and subtitle already explain the local relationship, the compact form `section heading → board` is preferred and duplicate lead-in prose is removed; background, evidence, links, and details remain in the document. Boards are clustered only when they belong to the same topic or when the user explicitly requests a gallery-style section.
 
 ### Example sources
 

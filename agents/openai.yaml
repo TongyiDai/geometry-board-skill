@@ -1,8 +1,8 @@
 interface:
   display_name: "蓝点几何画板"
-  short_description: "蓝点有语义、直白易懂、克制少字的几何飞书画板"
+  short_description: "技术与非技术都能读懂、蓝点有语义的克制几何飞书画板"
   brand_color: "#2F6BFF"
-  default_prompt: "Use $geometry-board to turn this content into a clear, plain-language, restrained point-line-plane-volume diagram; make the title directly restatable, choose cards, points, lines, natural curves, or a hybrid based on the relationships, and use Geometry Blue only when its semantics are clear. For a multi-board series, vary the main compositions while retaining a proven classic anchor when it fits, then place each board after its matching section."
+  default_prompt: "Use $geometry-board to turn this content into a clear, plain-language, restrained point-line-plane-volume diagram; state the reader's takeaway for mixed technical and non-technical audiences, use a concise subtitle when one line of explanation helps, choose cards, points, lines, natural curves, or a hybrid based on the relationships, and keep nearby document prose free of duplicate explanation."
 
 policy:
   allow_implicit_invocation: true
