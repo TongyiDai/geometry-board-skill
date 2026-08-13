@@ -337,18 +337,19 @@ The examples in this repository cover two real document-oriented use cases—OKR
 ## 目录结构
 
 ```text
-geometry-board/
-├── SKILL.md                         # Skill 主说明与工作流
-├── agents/openai.yaml               # Codex 中的展示信息
+geometry-board-skill/
+├── SKILL.md                          # Skill 主说明与工作流
+├── agents/openai.yaml                # Codex 中的展示信息
 ├── references/
 │   ├── visual-system.md              # 视觉 Token 与构图模板
+│   ├── design-language.md            # 点线面体与视觉关系语言
 │   └── scene-json-schema.md          # Scene JSON 协议
 ├── scripts/validate_scene.py         # Scene JSON 结构校验
 └── examples/                         # 实际画板 SVG 示例
     ├── overview/                     # Skill 总览画板与 Scene JSON
     ├── okr/
     ├── kdm/
-    └── skill-workflow/                # Skill 工作方式示例与 Scene JSON
+    └── skill-workflow/               # Skill 工作方式示例与 Scene JSON
 ```
 
 ## 使用方式
@@ -370,3 +371,7 @@ python3 scripts/validate_scene.py path/to/scene.json
 ```
 
 校验通过后，再进行 SVG/PNG 渲染和飞书文档写入。
+
+## 许可
+
+本项目以 MIT 许可开源，详见 [LICENSE](LICENSE)。仓库内示例仅使用通用角色名，不含真实姓名或内部数据。
