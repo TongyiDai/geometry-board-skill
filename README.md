@@ -1,12 +1,5 @@
 > “Less, but better.” — Dieter Rams
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Agent%20Skill-agentskills.io-2F6BFF" alt="Agent Skill">
-  <img src="https://img.shields.io/badge/license-MIT-3fb950" alt="License MIT">
-  <img src="https://img.shields.io/badge/python-%3E%3D3.8-3572A5" alt="Python >=3.8">
-  <img src="https://img.shields.io/badge/works%20with-Codex%20|%20Claude%20|%20Cursor%20|%20TRAE-555" alt="Works with major agents">
-</p>
-
 <div align="center">
 
 ### **蓝色波点 · Blue Dot**
@@ -23,6 +16,13 @@
 ---
 
 # 蓝色波点几何画板｜Blue Dot
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Agent%20Skill-agentskills.io-2F6BFF" alt="Agent Skill">
+  <img src="https://img.shields.io/badge/license-MIT-3fb950" alt="License MIT">
+  <img src="https://img.shields.io/badge/python-%3E%3D3.8-3572A5" alt="Python >=3.8">
+  <img src="https://img.shields.io/badge/works%20with-Codex%20|%20Claude%20|%20Cursor%20|%20TRAE-555" alt="Works with major agents">
+</p>
 
 把复杂内容压缩成一张“一图一意”、直白易懂、简洁克制、有几何编辑感、可插入飞书文档的几何视觉画板。
 
