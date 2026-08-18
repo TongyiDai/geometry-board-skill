@@ -15,7 +15,7 @@
 
 ---
 
-# 蓝色波点几何画板｜Blue Dot
+<h1 align="center">蓝色波点几何画板｜Blue Dot</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Agent%20Skill-agentskills.io-2F6BFF" alt="Agent Skill">
