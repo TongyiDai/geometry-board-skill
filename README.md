@@ -119,6 +119,17 @@ Agent 先确认内容来源、读者、交付格式和是否需要写入飞书�
 
 ## 核心工作流
 
+开始前运行 `scripts/doctor.sh --json`。本仓库负责 Scene JSON 约束、示例和交付规则；实际 SVG/PNG 渲染能力取决于当前 Agent 环境。结果分为 `validated`、`generated`、`inserted_unverified` 和 `verified`，不能混为一个“完成”。
+
+### Agent 使用说明
+
+1. 运行 `scripts/doctor.sh --json`。
+2. 生成 Scene JSON，并运行 `python3 scripts/validate_scene.py <scene.json>`。
+3. 使用当前 Agent 提供的渲染器生成 SVG/PNG，完成视觉审查。
+4. 用户明确要求后，才执行飞书写入；写入后必须读回验证。
+
+没有渲染器时交付已校验的 Scene JSON；没有 Lark 认证时交付本地文件。两种情况都不能报告为 `verified`。详见 [`references/runtime.md`](references/runtime.md) 和 [`references/lark-cli.md`](references/lark-cli.md)。
+
 ```text
 读取内容 → 提炼核心判断 → 抽取关系 → 选择构图
         → 生成 Scene JSON → 校验 → 渲染 SVG/PNG

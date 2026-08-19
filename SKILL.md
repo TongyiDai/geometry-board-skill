@@ -5,6 +5,15 @@ description: 将自然语言、飞书文档选中文本或已有结构转译为�
 
 # 蓝色波点几何画板｜Blue Dot
 
+## 首步：检查运行与交付能力
+
+运行 `scripts/doctor.sh --json`，确认 Scene JSON 校验可用。需要飞书写入时，
+再读取 [运行与交付契约](references/runtime.md) 和
+[Feishu delivery contract](references/lark-cli.md)，执行身份检查并确认目标。
+
+本仓库提供 Scene JSON 协议、校验器和示例；渲染器由当前 Agent 环境提供。
+无法渲染时保留结构化 Scene JSON，并明确报告阻塞点。
+
 ## 目标
 
 把知识表达转成一张“一图一意”的几何图示。核心视觉语言是点、线、面、体及其关系：先提炼唯一核心判断，再判断对象与关系、选择卡片/点线/混合表达，随后选择构图、生成 Scene JSON，用 `scripts/validate_scene.py` 做确定性结构校验后，按视觉系统规则生成 SVG；不要让模型不经 Scene JSON 与校验就直接自由堆砌像素或 SVG 路径。
